@@ -10,4 +10,4 @@ Renders calculated points along a Bezier Curve.
 - React + hot module reloading
 - D3
 
-
+<img src="https://raw.githubusercontent.com/ottoman/bezier-curve/master/graph.png" align="left">
