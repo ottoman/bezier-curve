@@ -9,16 +9,15 @@ module.exports = {
     './src/main'
   ],
   output: {
-    path: path.join(__dirname, 'demo'),
-    filename: 'bundle.js',
-    publicPath: ''
+    path: __dirname,
+    filename: 'bundle.js'
   },
   plugins: [
     new webpack.HotModuleReplacementPlugin()
   ],
   module: {
     loaders: [
-      { test: /\.css$/,    loader: 'style!css' },
+      { test: /\.css$/, loader: 'style!css' },
       {
         test: /\.js$/,
         loaders: [
